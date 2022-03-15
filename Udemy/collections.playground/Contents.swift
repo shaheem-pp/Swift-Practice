@@ -16,21 +16,34 @@ import UIKit
 //8. Create a tuple called armorPiece Tuple and assign it named variables for name, cost, and canEquip, all
 //with initial values. Then access the canEquip value with dot notation.
 
-var shopitemsArray = ["Carrot", "Onion", "Orange"]
-var shopitemsDictionary = [
-    "Vegetable" : [
-        "name":"Carrot",
-        "Price":20
-        ],
-    "Fruit" : [
-        "name" : "Apple",
-        "price":30
-    ]
-]
+//var shopitemsArray = ["Carrot", "Onion", "Orange"]
+//var shopitemsDictionary = [
+//    "Vegetable" : [
+//        "name":"Carrot",
+//        "Price":20
+//        ],
+//    "Fruit" : [
+//        "name" : "Apple",
+//        "price":30
+//    ]
+//]
+//
+//shopitemsArray.insert("Apple", at: 0)
+//var selectedItem = shopitemsDictionary["Fruit"]?["name"]
+//var selectedItemPrice = shopitemsDictionary["Fruit"]?["price"]
+//var fullArmorSet : Set<String> = ["Jacket 1","Jacket 2","Jacket 3"]
+//var currentArmorSet : Set<String> = ["Jacket 3"]
+//fullArmorSet.removeFirst()
 
-shopitemsArray.insert("Apple", at: 0)
-var selectedItem = shopitemsDictionary["Fruit"]?["name"]
-var selectedItemPrice = shopitemsDictionary["Fruit"]?["price"]
-var fullArmorSet : Set<String> = ["Jacket 1","Jacket 2","Jacket 3"]
-var currentArmorSet : Set<String> = ["Jacket 3"]
-fullArmorSet.removeFirst()
+
+func exercise() {
+    let numbers = [45, 73, 195, 53]
+    let computedNumbers = [
+        numbers[0]*numbers[1],
+        numbers[1]*numbers[2],
+        numbers[2]*numbers[3],
+        numbers[3]*numbers[0],
+    ]
+    print(computedNumbers)
+}
+exercise()
